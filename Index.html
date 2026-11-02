@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div id="hearts"></div>
+
+
+<!-- 1. OPENING -->
+
+<section class="hero">
+
+    <div class="heart">❤️</div>
+
+    <h1>Hey Beautiful...</h1>
+
+    <h2>
+        Can I Have Just 2 Minutes
+        of Your Time?
+    </h2>
+
+    <p>
+        I made this little place just for you.
+    </p>
+
+    <button onclick="startJourney()">
+        Open My Heart ❤️
+    </button>
+
+</section>
+
+
+<!-- 2. APOLOGY -->
+
+<section id="apology">
+
+    <p class="small-title">FROM MY HEART</p>
+
+    <h2>I'm Sorry.</h2>
+
+    <p class="message">
+
+        I know I messed up, and I know
+        that a simple sorry cannot magically
+        fix everything.
+
+        <br><br>
+
+        But hurting you was never what I wanted.
+
+        <br><br>
+
+        You mean so much to me, and the last
+        thing I ever want is to become the reason
+        behind your sadness.
+
+        <br><br>
+
+        <strong>
+            I'm genuinely sorry. ❤️
+        </strong>
+
+    </p>
+
+</section>
+
+
+<!-- 3. REASONS -->
+
+<section>
+
+    <p class="small-title">
+        JUST A LITTLE REMINDER
+    </p>
+
+    <h2>Why You Mean So Much To Me</h2>
+
+    <div class="cards">
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <h3>Your Smile 😊</h3>
+
+            <p>
+                Your smile can make even an
+                ordinary day feel special.
+            </p>
+
+        </div>
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <h3>Your Beautiful Heart ❤️</h3>
+
+            <p>
+                Your kindness and the way you
+                care mean more to me than you know.
+            </p>
+
+        </div>
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <h3>The Little Things ✨</h3>
+
+            <p>
+                It's the smallest things you do
+                that somehow stay with me the longest.
+            </p>
+
+        </div>
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <h3>You 🌷</h3>
+
+            <p>
+                Simply having you in my life
+                makes it a little brighter.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- 4. MEMORIES -->
+
+<section class="memories">
+
+    <p class="small-title">
+        OUR LITTLE MEMORIES
+    </p>
+
+    <h2>Some Moments I Love ❤️</h2>
+
+    <div class="photos">
+
+        <div class="photo">
+
+            <img src="US.jpeg"
+                 alt="One of our favourite memories">
+
+            <p>
+                One of my favourite memories ❤️
+            </p>
+
+        </div>
+
+
+        <div class="photo">
+
+            <img src="S.jpeg"
+                 alt="The smile I love">
+
+            <p>
+                That smile I love 😊
+            </p>
+
+        </div>
+
+
+        <div class="photo">
+
+            <img src="we.jpeg"
+                 alt="A memory of us together">
+
+            <p>
+                Just us ✨
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- 5. PROMISE -->
+
+<section class="promise">
+
+    <div class="big-heart" id="promiseHeart">
+        ❤️
+    </div>
+
+    <h2>A Little Promise</h2>
+
+    <p class="message">
+
+        I can't promise I'll never make mistakes.
+
+        <br><br>
+
+        But I can promise to keep learning,
+        communicating, understanding you,
+        and becoming better.
+
+    </p>
+
+    <button onclick="makePromise()">
+        I Promise ❤️
+    </button>
+
+    <p id="promiseText"></p>
+
+</section>
+
+
+<!-- 6. FINAL QUESTION -->
+
+<section class="final">
+
+    <p class="message">
+
+        I know I cannot demand forgiveness.
+
+        <br><br>
+
+        I just hope you'll give me a chance
+        to make things right,
+
+        <strong>
+            one little moment at a time.
+        </strong>
+
+    </p>
+
+    <h2>
+        Can I make you smile again? 🥺❤️
+    </h2>
+
+
+    <div class="buttons">
+
+        <button onclick="sayYes()">
+            Of Course ❤️
+        </button>
+
+        <button class="light"
+                id="needTimeButton"
+                onclick="needTime()">
+
+            I Need Some Time 🥺
+
+        </button>
+
+    </div>
+
+
+    <div id="answer"></div>
+
+</section>
+
+
+<footer>
+    Made with love, honesty and a hopeful heart ❤️
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
